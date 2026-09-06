@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>27Store - iOS Installer</title>
+    <style>
+        body { background-color: #0b0f19; color: white; font-family: -apple-system, BlinkMacSystemFont, sans-serif; padding: 20px; margin: 0; }
+        h1 { text-align: center; margin-bottom: 25px; color: #ffffff; }
+        .card { background-color: #161b26; border-radius: 16px; padding: 15px; margin-bottom: 15px; display: flex; align-items: center; justify-content: space-between; border: 1px solid #232a3b; }
+        .app-info { display: flex; align-items: center; gap: 12px; }
+        .app-icon { width: 50px; height: 50px; border-radius: 12px; background-color: #2a3245; }
+        .app-title { font-weight: bold; font-size: 16px; color: #fff; margin-bottom: 4px; }
+        .app-tag { font-size: 11px; background: #1c2e24; color: #4ade80; padding: 3px 8px; border-radius: 6px; }
+        .btn-install { background-color: #102a19; color: #4ade80; border: 1px solid #166534; padding: 8px 18px; border-radius: 20px; text-decoration: none; font-weight: bold; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+    <h1>27Store iOS</h1>
+
+    <!-- App Item 1 -->
+    <div class="card">
+        <div class="app-info">
+            <img src="https://via.placeholder.com/50" class="app-icon" alt="icon">
+            <div>
+                <div class="app-title">ESign iOS</div>
+                <span class="app-tag">● Anti-Revoke</span>
+            </div>
+        </div>
+        <a href="itms-services://?action=download-manifest&url=YOUR_PLIST_URL_HERE" class="btn-install">↓ Install</a>
+    </div>
+
+    <!-- App Item 2 -->
+    <div class="card">
+        <div class="app-info">
+            <img src="https://via.placeholder.com/50" class="app-icon" alt="icon">
+            <div>
+                <div class="app-title">Scarlet</div>
+                <span class="app-tag">● Signed</span>
+            </div>
+        </div>
+        <a href="itms-services://?action=download-manifest&url=YOUR_PLIST_URL_HERE" class="btn-install">↓ Install</a>
+    </div>
+
+</body>
+</html>
